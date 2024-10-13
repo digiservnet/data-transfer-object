@@ -34,7 +34,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "SpaDigiservnettie\\DataTransferObject\\Tests\\": "tests"
+            "Digiservnet\\DataTransferObject\\Tests\\": "tests"
         }
     },
     "scripts": {
