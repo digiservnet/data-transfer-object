@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Reflection;
+namespace Digiservnet\DataTransferObject\Tests\Reflection;
 
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Reflection\DataTransferObjectClass;
-use Spatie\DataTransferObject\Tests\TestCase;
+use Digiservnet\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Reflection\DataTransferObjectClass;
+use Digiservnet\DataTransferObject\Tests\TestCase;
 
 class DataTransferObjectClassTest extends TestCase
 {

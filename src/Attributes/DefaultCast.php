@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\DataTransferObject\Attributes;
+namespace Digiservnet\DataTransferObject\Attributes;
 
 use Attribute;
 use JetBrains\PhpStorm\Immutable;
 use ReflectionNamedType;
 use ReflectionProperty;
 use ReflectionUnionType;
-use Spatie\DataTransferObject\Caster;
+use Digiservnet\DataTransferObject\Caster;
 
 #[Attribute(Attribute::TARGET_CLASS | Attribute::IS_REPEATABLE)]
 class DefaultCast

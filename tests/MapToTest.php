@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace Digiservnet\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\Arr;
-use Spatie\DataTransferObject\Attributes\MapFrom;
-use Spatie\DataTransferObject\Attributes\MapTo;
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Arr;
+use Digiservnet\DataTransferObject\Attributes\MapFrom;
+use Digiservnet\DataTransferObject\Attributes\MapTo;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 class MapToTest extends TestCase
 {

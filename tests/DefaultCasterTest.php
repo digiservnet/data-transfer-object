@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace Digiservnet\DataTransferObject\Tests;
 
 use Attribute;
 use DateTimeImmutable;
-use Spatie\DataTransferObject\Attributes\DefaultCast;
-use Spatie\DataTransferObject\Caster;
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Attributes\DefaultCast;
+use Digiservnet\DataTransferObject\Caster;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 class DefaultCasterTest extends TestCase
 {

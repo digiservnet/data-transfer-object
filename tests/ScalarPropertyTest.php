@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace Digiservnet\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 class ScalarPropertyTest extends TestCase
 {

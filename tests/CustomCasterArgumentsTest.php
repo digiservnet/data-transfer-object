@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace Digiservnet\DataTransferObject\Tests;
 
 use ArrayAccess;
 use ArrayIterator;
@@ -9,9 +9,9 @@ use Illuminate\Support\Collection;
 use Iterator;
 use IteratorAggregate;
 use LogicException;
-use Spatie\DataTransferObject\Attributes\CastWith;
-use Spatie\DataTransferObject\Casters\ArrayCaster;
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Attributes\CastWith;
+use Digiservnet\DataTransferObject\Casters\ArrayCaster;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 class CustomCasterArgumentsTest extends TestCase
 {
@@ -186,7 +186,7 @@ class CustomCasterArgumentsTest extends TestCase
     {
         $this->expectException(LogicException::class);
         $this->expectExceptionMessage(
-            "Caster [ArrayCaster] each item must be an array or an instance of the specified item type [Spatie\DataTransferObject\Tests\Foo]."
+            "Caster [ArrayCaster] each item must be an array or an instance of the specified item type [Digiservnet\DataTransferObject\Tests\Foo]."
         );
 
         new DTOWithArrayObject(
@@ -261,33 +261,33 @@ class CustomCasterArgumentsTest extends TestCase
 
 class Bar extends DataTransferObject
 {
-    /** @var \Spatie\DataTransferObject\Tests\Foo[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Foo[] */
     #[CastWith(ArrayCaster::class, itemType: Foo::class)]
     public array $collectionOfFoo;
 
-    /** @var \Spatie\DataTransferObject\Tests\Baz[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Baz[] */
     #[CastWith(ArrayCaster::class, itemType: Baz::class)]
     public array $collectionOfBaz;
 }
 
 class BarJr extends DataTransferObject
 {
-    /** @var \Spatie\DataTransferObject\Tests\Foo[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Foo[] */
     #[CastWith(ArrayCaster::class, itemType: Foo::class)]
     public Collection $collectionOfFoo;
 
-    /** @var \Spatie\DataTransferObject\Tests\Baz[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Baz[] */
     #[CastWith(ArrayCaster::class, itemType: Baz::class)]
     public Collection $collectionOfBaz;
 }
 
 class BarIllogical extends DataTransferObject
 {
-    /** @var \Spatie\DataTransferObject\Tests\Foo[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Foo[] */
     #[CastWith(ArrayCaster::class, itemType: Foo::class)]
     public string $collectionOfFoo;
 
-    /** @var \Spatie\DataTransferObject\Tests\Baz[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Baz[] */
     #[CastWith(ArrayCaster::class, itemType: Baz::class)]
     public int $collectionOfBaz;
 }
@@ -371,44 +371,44 @@ class ArrayAccessIterator extends ArrayAccessImplementation implements Iterator
 
 class DTOWithArrayAccessImplementation extends DataTransferObject
 {
-    /** @var \Spatie\DataTransferObject\Tests\Foo[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Foo[] */
     #[CastWith(ArrayCaster::class, itemType: Foo::class)]
     public ArrayAccessImplementation $collectionOfFoo;
 
-    /** @var \Spatie\DataTransferObject\Tests\Baz[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Baz[] */
     #[CastWith(ArrayCaster::class, itemType: Baz::class)]
     public ArrayAccessImplementation $collectionOfBaz;
 }
 
 class DTOWithArrayAccessIteratorAggregate extends DataTransferObject
 {
-    /** @var \Spatie\DataTransferObject\Tests\Foo[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Foo[] */
     #[CastWith(ArrayCaster::class, itemType: Foo::class)]
     public ArrayAccessIteratorAggregate $collectionOfFoo;
 
-    /** @var \Spatie\DataTransferObject\Tests\Baz[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Baz[] */
     #[CastWith(ArrayCaster::class, itemType: Baz::class)]
     public ArrayAccessIteratorAggregate $collectionOfBaz;
 }
 
 class DTOWithArrayAccessIterator extends DataTransferObject
 {
-    /** @var \Spatie\DataTransferObject\Tests\Foo[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Foo[] */
     #[CastWith(ArrayCaster::class, itemType: Foo::class)]
     public ArrayAccessIterator $collectionOfFoo;
 
-    /** @var \Spatie\DataTransferObject\Tests\Baz[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Baz[] */
     #[CastWith(ArrayCaster::class, itemType: Baz::class)]
     public ArrayAccessIterator $collectionOfBaz;
 }
 
 class DTOWithArrayObject extends DataTransferObject
 {
-    /** @var \Spatie\DataTransferObject\Tests\Foo[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Foo[] */
     #[CastWith(ArrayCaster::class, itemType: Foo::class)]
     public ArrayObject $collectionOfFoo;
 
-    /** @var \Spatie\DataTransferObject\Tests\Baz[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Baz[] */
     #[CastWith(ArrayCaster::class, itemType: Baz::class)]
     public ArrayObject $collectionOfBaz;
 }

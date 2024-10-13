@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace Digiservnet\DataTransferObject\Tests\Dummy;
 
-use Spatie\DataTransferObject\Attributes\Strict;
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Attributes\Strict;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 #[Strict]
 class ComplexStrictDto extends DataTransferObject

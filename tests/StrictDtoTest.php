@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace Digiservnet\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\Attributes\Strict;
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Exceptions\UnknownProperties;
+use Digiservnet\DataTransferObject\Attributes\Strict;
+use Digiservnet\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Exceptions\UnknownProperties;
 
 class StrictDtoTest extends TestCase
 {

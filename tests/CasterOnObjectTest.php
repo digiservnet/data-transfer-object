@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace Digiservnet\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexObjectWithCaster;
+use Digiservnet\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Tests\Dummy\ComplexObjectWithCaster;
 
 class CasterOnObjectTest extends TestCase
 {

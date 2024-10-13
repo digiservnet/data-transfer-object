@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace Digiservnet\DataTransferObject\Tests\Dummy;
 
-use Spatie\DataTransferObject\Attributes\CastWith;
+use Digiservnet\DataTransferObject\Attributes\CastWith;
 
 #[CastWith(ComplexObjectWithCasterCaster::class)]
 class ComplexObjectWithCaster

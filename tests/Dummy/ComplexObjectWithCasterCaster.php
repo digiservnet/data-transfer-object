@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace Digiservnet\DataTransferObject\Tests\Dummy;
 
-use Spatie\DataTransferObject\Caster;
+use Digiservnet\DataTransferObject\Caster;
 
 class ComplexObjectWithCasterCaster implements Caster
 {

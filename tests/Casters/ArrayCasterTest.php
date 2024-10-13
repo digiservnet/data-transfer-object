@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Casters;
+namespace Digiservnet\DataTransferObject\Tests\Casters;
 
 use Exception;
-use Spatie\DataTransferObject\Attributes\CastWith;
-use Spatie\DataTransferObject\Caster;
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Tests\TestCase;
+use Digiservnet\DataTransferObject\Attributes\CastWith;
+use Digiservnet\DataTransferObject\Caster;
+use Digiservnet\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Tests\TestCase;
 
 class ArrayCasterTest extends TestCase
 {
@@ -27,7 +27,7 @@ class ArrayCasterTest extends TestCase
 
 class Bar extends DataTransferObject
 {
-    /** @var \Spatie\DataTransferObject\Tests\Foo[] */
+    /** @var \Digiservnet\DataTransferObject\Tests\Foo[] */
     #[CastWith(FooArrayCaster::class)]
     public array $collectionOfFoo;
 }

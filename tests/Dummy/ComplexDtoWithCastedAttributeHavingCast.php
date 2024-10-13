@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace Digiservnet\DataTransferObject\Tests\Dummy;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 class ComplexDtoWithCastedAttributeHavingCast extends DataTransferObject
 {

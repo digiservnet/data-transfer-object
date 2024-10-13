@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace Digiservnet\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\Attributes\MapFrom;
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Attributes\MapFrom;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 class MapFromTest extends TestCase
 {

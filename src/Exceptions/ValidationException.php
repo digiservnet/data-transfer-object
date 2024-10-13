@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Exceptions;
+namespace Digiservnet\DataTransferObject\Exceptions;
 
 use Exception;
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 class ValidationException extends Exception
 {
@@ -16,7 +16,7 @@ class ValidationException extends Exception
         $messages = [];
 
         foreach ($validationErrors as $fieldName => $errorsForField) {
-            /** @var \Spatie\DataTransferObject\Validation\ValidationResult $errorForField */
+            /** @var \Digiservnet\DataTransferObject\Validation\ValidationResult $errorForField */
             foreach ($errorsForField as $errorForField) {
                 $messages[] = "\t - `{$className}->{$fieldName}`: {$errorForField->message}";
             }

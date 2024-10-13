@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace Digiservnet\DataTransferObject\Tests\Dummy;
 
 use Attribute;
-use Spatie\DataTransferObject\Validation\ValidationResult;
-use Spatie\DataTransferObject\Validator;
+use Digiservnet\DataTransferObject\Validation\ValidationResult;
+use Digiservnet\DataTransferObject\Validator;
 
 #[Attribute(Attribute::TARGET_PROPERTY | Attribute::IS_REPEATABLE)]
 class NumberBetween implements Validator

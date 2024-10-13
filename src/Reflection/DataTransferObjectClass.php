@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\DataTransferObject\Reflection;
+namespace Digiservnet\DataTransferObject\Reflection;
 
 use ReflectionClass;
 use ReflectionProperty;
-use Spatie\DataTransferObject\Attributes\Strict;
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Exceptions\ValidationException;
+use Digiservnet\DataTransferObject\Attributes\Strict;
+use Digiservnet\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Exceptions\ValidationException;
 
 class DataTransferObjectClass
 {
@@ -23,7 +23,7 @@ class DataTransferObjectClass
     }
 
     /**
-     * @return \Spatie\DataTransferObject\Reflection\DataTransferObjectProperty[]
+     * @return \Digiservnet\DataTransferObject\Reflection\DataTransferObjectProperty[]
      */
     public function getProperties(): array
     {

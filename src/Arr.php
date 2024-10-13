@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\DataTransferObject;
+namespace Digiservnet\DataTransferObject;
 
 use ArrayAccess;
 

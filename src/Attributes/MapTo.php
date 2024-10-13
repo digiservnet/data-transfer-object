@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\DataTransferObject\Attributes;
+namespace Digiservnet\DataTransferObject\Attributes;
 
 use Attribute;
 

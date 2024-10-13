@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Exceptions;
+namespace Digiservnet\DataTransferObject\Exceptions;
 
 use Exception;
-use Spatie\DataTransferObject\Caster;
+use Digiservnet\DataTransferObject\Caster;
 
 class InvalidCasterClass extends Exception
 {

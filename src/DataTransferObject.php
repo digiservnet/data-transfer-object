@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\DataTransferObject;
+namespace Digiservnet\DataTransferObject;
 
 use ReflectionClass;
 use ReflectionProperty;
-use Spatie\DataTransferObject\Attributes\CastWith;
-use Spatie\DataTransferObject\Attributes\MapTo;
-use Spatie\DataTransferObject\Casters\DataTransferObjectCaster;
-use Spatie\DataTransferObject\Exceptions\UnknownProperties;
-use Spatie\DataTransferObject\Reflection\DataTransferObjectClass;
+use Digiservnet\DataTransferObject\Attributes\CastWith;
+use Digiservnet\DataTransferObject\Attributes\MapTo;
+use Digiservnet\DataTransferObject\Casters\DataTransferObjectCaster;
+use Digiservnet\DataTransferObject\Exceptions\UnknownProperties;
+use Digiservnet\DataTransferObject\Reflection\DataTransferObjectClass;
 
 #[CastWith(DataTransferObjectCaster::class)]
 abstract class DataTransferObject

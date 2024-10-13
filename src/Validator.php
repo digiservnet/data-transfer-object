@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject;
+namespace Digiservnet\DataTransferObject;
 
-use Spatie\DataTransferObject\Validation\ValidationResult;
+use Digiservnet\DataTransferObject\Validation\ValidationResult;
 
 interface Validator
 {

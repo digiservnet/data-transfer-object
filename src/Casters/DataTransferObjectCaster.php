@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Casters;
+namespace Digiservnet\DataTransferObject\Casters;
 
-use Spatie\DataTransferObject\Caster;
-use Spatie\DataTransferObject\DataTransferObject;
+use Digiservnet\DataTransferObject\Caster;
+use Digiservnet\DataTransferObject\DataTransferObject;
 
 class DataTransferObjectCaster implements Caster
 {

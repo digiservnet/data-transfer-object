@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace Digiservnet\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\Tests\Dummy\BasicDto;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDto;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDtoWithCastedAttributeHavingCast;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDtoWithNullableProperty;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDtoWithParent;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDtoWithSelf;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexStrictDto;
-use Spatie\DataTransferObject\Tests\Dummy\WithDefaultValueDto;
+use Digiservnet\DataTransferObject\Tests\Dummy\BasicDto;
+use Digiservnet\DataTransferObject\Tests\Dummy\ComplexDto;
+use Digiservnet\DataTransferObject\Tests\Dummy\ComplexDtoWithCastedAttributeHavingCast;
+use Digiservnet\DataTransferObject\Tests\Dummy\ComplexDtoWithNullableProperty;
+use Digiservnet\DataTransferObject\Tests\Dummy\ComplexDtoWithParent;
+use Digiservnet\DataTransferObject\Tests\Dummy\ComplexDtoWithSelf;
+use Digiservnet\DataTransferObject\Tests\Dummy\ComplexStrictDto;
+use Digiservnet\DataTransferObject\Tests\Dummy\WithDefaultValueDto;
 
 class DataTransferObjectTest extends TestCase
 {
